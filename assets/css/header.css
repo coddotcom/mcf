@@ -1,0 +1,27 @@
+
+.header-title {
+        font-weight: 700;
+        font-family: 'Poppins', sans-serif;
+        font-size: clamp(1.563rem, 1.2331rem + 1.4077vw, 2.5rem);
+        color: #1077ba;
+        text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.6);
+    }
+
+.header-subtitle {
+        font-size: clamp(1.25rem, 1.0299rem + 0.9390vw, 1.875rem);
+        color: #8dc541;
+        display: block;
+    }
+#logo{width:clamp(6.25rem, 4.0493rem + 9.3897vw, 12.5rem);}
+
+.header-social-icon a {
+    height: 40px;
+    width: 40px;
+    margin-right: 8px;
+    background: #0e76bd;
+    border-radius: 50%;
+    line-height: 35px;
+    text-align: center;
+    color: #ffffff;
+}
+

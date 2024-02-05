@@ -1,0 +1,105 @@
+.navbar {
+    background: #ffffff !important;
+    width: auto;
+    padding: 0 !important;
+    font-size: 18px;
+}
+
+
+.navbar .nav-link {
+    color: blue;
+    margin-bottom: 0 !important;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 10px;
+    position: relative;
+}
+
+.navbar-nav {
+    margin-right: 100px;
+}
+
+
+
+
+#navbar .sub-menu {
+    position: absolute;
+    z-index: 9999;
+   background-color: #fcfcfc;
+    display: none;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+
+#navbar .nav-item:hover .sub-menu {
+    display: block;
+    opacity: 1;
+}
+
+#navbar .sub-menu ul {
+    padding: 0;
+}
+
+#navbar .sub-menu li {
+    list-style-type: none;
+}
+
+#navbar .sub-menu li a {
+    display: block;
+    text-decoration: none;
+    display: block;
+    color: #8bc43f;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+/* Apply styles to the list items and links */
+
+#offcanvas .nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#offcanvas .nav-list li {
+    margin: 3px 0;
+
+}
+
+#offcanvas .nav-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+    padding: 5px 10px;
+}
+
+#offcanvas .nav-list ul li a {
+    text-decoration: none;
+    color: orange;
+    font-weight: bold;
+    transition: color 0.3s;
+    padding: 5px 10px;
+}
+
+
+
+
+@media (max-width: 767px) {
+    .navbar {
+        padding: 5px 0 !important;
+    }
+
+
+
+    .navbar .nav-link {
+        margin-bottom: 0 !important;
+
+    }
+
+    .navbar-nav {
+        margin-right: 100px;
+    }
+
+}
