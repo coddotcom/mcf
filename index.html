@@ -18,6 +18,12 @@
 </head>
 <style>
 
+  .sparkling-text {
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    color: #007bff; /* Blue color, change as needed */
+  }
+
 .loading-container {
   position: fixed;
   top: 0;
@@ -322,7 +328,7 @@ left:0;
     <img id="section_1_img" src="assets/uploaded_img/maila.png" style="" alt="">
     <div id="section_1_absolute_container" style="display:flex;align-items:center;justify-content:end;position:absolute; top:0; bottom:0; left:0; right:0; color: white;">
 	<div id="section_1_text_container">
-        <h1 style="margin: auto;">Discover the Sparkling Difference with <br>Maila Cleaning Services</h1>
+       <h1>Discover the <span class="sparkling-text" id="lettering">Sparkling Difference</span> with <span class="sparkling-text" id="maila">Maila Cleaning Services</span></h1>
 		<h4 class="maila"><h4>
 	</div>
     </div>
@@ -652,6 +658,7 @@ Insured and Bonded
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
  <script src="https://kit.fontawesome.com/1ba2f6e73d.js" crossorigin="anonymous"></script>
   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js"></script>
   
 <script>
 window.onload = function () {
@@ -660,6 +667,14 @@ window.onload = function () {
   loadingContainer.style.display = "none";
 };
 
+</script>
+
+<script>
+  // Apply lettering.js to both spans
+  $(document).ready(function() {
+    $('#lettering').lettering();
+    $('#maila').lettering();
+  });
 </script>
 
 <script>
