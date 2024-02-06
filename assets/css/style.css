@@ -2,7 +2,7 @@
 body{
     margin:0;
     padding:0;
-font-size: clamp(12px, 3vw, 16px) !important;
+font-size: clamp(13px, 3vw, 16px) !important;
     /**clamp(1.063rem, 0.9750rem + 0.3756vw, 1.313rem);clamp(1.125rem, 1.0588rem + 0.2824vw, 1.313rem);
  clamp(1.125rem, 1.0148rem + 0.4702vw, 1.438rem);**/
     font-family: 'Roboto';
