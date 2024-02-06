@@ -1,3 +1,5 @@
+#logo{width:clamp(7.25rem, 4.0493rem + 9.3897vw, 12.5rem);}
+
 .navbar {
     background: #ffffff !important;
     width: auto;
