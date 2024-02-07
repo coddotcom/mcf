@@ -68,6 +68,10 @@
     margin: 0;
 }
 
+#offcanvas .sub-menu {
+    display:none;
+}
+
 #offcanvas .nav-list li {
     margin: 3px 0;
 
